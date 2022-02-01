@@ -1,0 +1,25 @@
+﻿NOTES PRACT 2 AI
+
+ - tot el que no es vengui avui es vendrà demà a cost de distribució 0
+
+ - 1 petició és per 1 diposit
+
+ ---------------
+if (na <= 0.05) -> 1
+else if (na <= 0.7) -> 2
+else -> 3
+ ---------------
+
+ESCENARI:
+
+ - distribuidors d = [[x,y][x,y].....]
+
+ - benzinera 	[[x,y],[dia],[dia]...], [una altre benzinera]
+ - altres opcions benzinera 
+				  [dia, #diposits]
+				  [dia, 0 1 2 3]
+
+
+ - llista benzineres
+
+ - solució [[distrib xy, [[x,y,d], [[x,y,d], [x', y', d']], ...]
